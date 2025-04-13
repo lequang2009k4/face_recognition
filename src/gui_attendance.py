@@ -102,8 +102,16 @@ class FaceRecognitionApp:
                         prob = best_class_probabilities[0]
                         if prob > 0.8:
                             timestamp = datetime.now().strftime("%H:%M:%S")
-                            self.info.config(text=f"✅ {name} ({round(prob, 2)}) - {timestamp}")
-                            log_attendance(name, prob)
+                            success = log_attendance(name, prob)
+
+                            if success:
+                        
+                                self.info.config(text=f"✅ {name} đã điểm danh lúc {timestamp}")
+                            else:
+                                self.info.config(text=f"📌 {name} đã ĐIỂM DANH")
+                  
+
+
                         else:
                             self.info.config(text="❌ Không xác định")
                 else:
