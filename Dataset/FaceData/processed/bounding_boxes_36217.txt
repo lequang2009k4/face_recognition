@@ -1,0 +1,10 @@
+Dataset/FaceData/processed\Quang\1.png 159 180 346 408
+Dataset/FaceData/processed\Quang\10.png 168 166 352 395
+Dataset/FaceData/processed\Quang\2.png 163 163 352 407
+Dataset/FaceData/processed\Quang\3.png 162 175 347 406
+Dataset/FaceData/processed\Quang\4.png 164 163 351 404
+Dataset/FaceData/processed\Quang\5.png 167 167 352 396
+Dataset/FaceData/processed\Quang\6.png 162 172 344 389
+Dataset/FaceData/processed\Quang\7.png 156 165 342 388
+Dataset/FaceData/processed\Quang\8.png 163 158 349 391
+Dataset/FaceData/processed\Quang\9.png 163 160 351 397
