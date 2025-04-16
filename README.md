@@ -15,19 +15,18 @@ Hệ thống sử dụng các kỹ thuật hiện đại bao gồm:
 
 ---
 
-## 📂 Cấu trúc dự án
 
-```bash
-📁 dataset/                 # Dữ liệu ảnh thô
-📁 aligned_data/           # Ảnh sau khi căn chỉnh
-📁 embeddings/             # Vector đặc trưng từ FaceNet
-📁 models/
-    └── facemodel.pkl      # Mô hình SVM đã huấn luyện
-📁 Models/
-    └── 20180402-114759.pb # File model FaceNet pre-trained
-📁 logs/                   # Log điểm danh
-📁 gui/                    # Giao diện tkinter (main.py)
-📄 align_dataset_mtcnn.py  # Script căn chỉnh khuôn mặt
-📄 classifier.py           # Huấn luyện SVM
-📄 detect_face.py          # Thư viện MTCNN
-📄 facenet.py              # Load, tiền xử lý & nhúng
+## Cách chạy chương trình
+
+# 1. Tạo môi trường ảo (khuyến khích)
+python -m venv env
+source env/bin/activate        # Trên Linux/macOS
+env\Scripts\activate           # Trên Windows
+
+# 2. Cài đặt các thư viện cần thiết
+pip install -r requirements.txt
+
+# 3. Chạy giao diện người dùng (GUI)
+python src/gui_attendance.py
+
+
