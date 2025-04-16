@@ -27,7 +27,7 @@ INPUT_IMAGE_SIZE = 160
 class FaceRecognitionApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Điểm danh nhân viên - AI")
+        self.root.title("Điểm danh sinh viên")
 
         self.label = tk.Label(root, text="Camera", font=("Arial", 16))
         self.label.pack()
