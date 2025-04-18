@@ -20,8 +20,11 @@ Hệ thống sử dụng các kỹ thuật hiện đại bao gồm:
 
 # 1. Tạo môi trường ảo (khuyến khích)
 python -m venv env
-source env/bin/activate        # Trên Linux/macOS
-env\Scripts\activate           # Trên Windows
+
+# Trên Linux/macOS
+source env/bin/activate        
+# Trên Windows
+env\Scripts\activate           
 
 # 2. Cài đặt các thư viện cần thiết
 pip install -r requirements.txt
